@@ -1,0 +1,18 @@
+{
+  "evaluation_scope": "fixed initial pose, fixed object position, fixed camera",
+  "control_mode": "delta_limited",
+  "steps_per_trial": 600,
+  "control_period_s": 0.04,
+  "trials": 10,
+  "successes": 10,
+  "fixed_condition_success_rate": 1.0,
+  "unique_trajectory_sha256_count": 1,
+  "deterministic_replay": true,
+  "max_lift_m": 0.06057038065046072,
+  "final_xy_error_m": 0.0116075444191344,
+  "retreat_m": 0.1122957409033327,
+  "final_speed_m_s": 1.5097284955784803e-7,
+  "gripper_open": true,
+  "mean_inference_ms_across_trials": 3.092378371666321,
+  "interpretation": "All ten trials reproduced the same trajectory. This verifies deterministic repeatability under the training condition, not generalization to unseen initial conditions."
+}
