@@ -1,0 +1,5 @@
+{
+  "joint_order": ["shoulder_pan", "shoulder_lift", "elbow_flex", "wrist_flex", "wrist_roll", "gripper"],
+  "qpos_rad": [0.7378966114855072, -0.13697436801335058, 0.10759051101219726, 1.6001801837960492, 0.7376919521253643, 1.2],
+  "description": "Fixed off-block home for unobstructed top-down observation; no runtime object pose lookup"
+}

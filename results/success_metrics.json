@@ -1,0 +1,35 @@
+{
+  "diagnostic_synthetic": false,
+  "model_sha256": "eac6f432602e60848c3acee8dbfada197d279e8917e7d28b73163aace23be8e1",
+  "chunk_size": 25,
+  "n_action_steps": 25,
+  "control_mode": "delta_limited",
+  "success": true,
+  "max_lift_m": 0.06057038065046072,
+  "final_xy_error_m": 0.0116075444191344,
+  "retreat_m": 0.1122957409033327,
+  "final_speed_m_s": 1.5097284955784803e-07,
+  "stable_window_present": true,
+  "gripper_open": true,
+  "legacy_a100_success": true,
+  "legacy_moved_m": 0.1396471100360673,
+  "final_block_z_m": 0.014892244579783834,
+  "mean_inference_ms": 3.530320118330413,
+  "limited_actions": 58,
+  "raw_action_min": [
+    -0.7379907369613647,
+    -0.28199490904808044,
+    -0.2672463655471802,
+    0.8852656483650208,
+    -0.4995752274990082,
+    -0.1819171905517578
+  ],
+  "raw_action_max": [
+    0.7371050119400024,
+    0.16626755893230438,
+    0.6727705597877502,
+    1.6642122268676758,
+    0.745558500289917,
+    1.205588698387146
+  ]
+}
